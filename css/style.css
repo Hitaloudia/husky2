@@ -1,0 +1,120 @@
+ :root {
+    --red: rgb(255, 0, 0);
+    --blue: #3082e6;
+    --background: #00032c;
+    --white: #ffffff;
+
+    
+    font-family: 'Roboto', sans-serif;
+    --husky-foto-size: 120px;
+
+ }
+
+
+ main {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 15px;
+    margin-top: 100px;
+    background-color: var(--background) ;
+ }
+
+ header {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 50px;
+
+
+}
+h1 {
+   color: rgb(1, 222, 252);
+   font-size: 40px;
+   margin-top: 15px;
+}
+
+.ocupation {
+   margin-top: 5px;
+}
+
+h1,
+p, 
+body, 
+button {
+ margin: 0;
+}
+
+i {
+    font-size: 24px;
+}
+
+ body {
+    background: var(--background);
+    color:rgb(255, 255, 255)
+ }
+ .husky-dog {
+   overflow: hidden;
+    height: var(--husky-foto-size);
+    width: var(--husky-foto-size);
+    border-radius: 100%;
+    border: 2px solid var(--blue)
+ }
+ .husky-foto {
+   margin-top: -5px;
+    width: var(--husky-foto-size);
+
+ }
+
+ section {
+
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+.link {
+    width: 100%;
+   max-width: 270px;
+   border-radius: 7px;
+
+   background: rgb(1, 222, 252);
+   text-decoration: none;
+   color: var(--white);
+   margin-top: 30px;
+   height: 50px;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   transition: all 250ms;
+
+}
+.link:first-child {
+   margin-top: 0;
+}
+
+.link:hover{
+   filter: brightness(1,2);
+   transform:translatey(-2px);
+   background: rgb(243, 156, 207);
+}
+
+ footer {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+ }
+footer i{
+   margin-top: 15px;
+   color: var(--red);
+}
+
+ .link i {
+   margin-right: 7px;
+ }
+ .call-me {
+   text-align: center;
+ }
